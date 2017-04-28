@@ -1,0 +1,14 @@
+<div id="hai-child">
+  hai-child works!
+  <p>{{stringInterpolation}}</p>
+  <p>{{numberInterpolation}}</p>
+  <input type="number" [value]="numberInterpolation">
+  <input type="text" [value]="stringInterpolation">
+  <p [ngClass]="{redBorder:true}">Is this styled?</p>
+  <p [ngClass]="borderClass">Is this Styled? (From component string)</p>
+  <p [ngClass]="{redBorder: onTest}">Is this Styled? (From component function)</p>
+  <p [ngStyle]="{color:'green'}">Text color in ngStyle.</p>
+  <p>{{resultFromChild}} :Property binding(resultFromChild)</p>
+  <button (click)="onClicked();">Click Me!</button>
+  <button (click)="onClicked2($event);">Click Me 2!</button>
+</div>

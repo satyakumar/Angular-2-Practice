@@ -1,0 +1,11 @@
+<p>
+  hai works!
+</p>
+<ng-content></ng-content>
+<app-hai-child [resultFromChild]="10"></app-hai-child>
+<p>{{resultFromChild}} resultFromChild</p>
+<div id="property-binding">
+<h2>Property Binding from app-property-binding</h2>
+<app-property-binding [result]="10"></app-property-binding>
+</div>
+<app-event-binding-emitter (clicked3)="$event"></app-event-binding-emitter>
