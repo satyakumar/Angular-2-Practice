@@ -1,0 +1,14 @@
+#parent-component {
+	border: 2px solid orange;
+	background-color: #CCC;
+	padding: 2%;
+}
+#child-one-component {
+	border: 2px solid #CCC;
+	background-color: orange;
+	padding: 2%;
+	margin: 2% 0;
+}
+.bg {
+	background-color:blue;
+}
